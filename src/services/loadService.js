@@ -19,11 +19,15 @@ export const useQuizData = () => {
       try {
         const responseData = await fetchQuizData();
         console.log("Fetched Quiz Data:", responseData);
+        if (!responseData || !Array.isArray(responseData.questions)) {
+          throw new Error("Invalid data format");
+        }
 
         if (
           responseData &&
           responseData.questions &&
-          Array.isArray(responseData.questions)
+          Array.isArray(responseData.questions) &&
+          responseData.questions.length > 0
         ) {
           setQuizData({
             duration: responseData.duration ?? 0,
