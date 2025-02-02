@@ -14,8 +14,11 @@ export const fetchQuizData = async () => {
         "Content-Type": "application/json",
       },
     });
-    console.log("Fetched Quiz Data:", response.data); // Log the API response
-    return response.data;
+
+    const data = JSON.parse(response.data.contents);
+    console.log("Parsed Quiz Data:", data);
+
+    return data;
   } catch (error) {
     console.error("Error fetching quiz data:", error);
     if (error.response) {
