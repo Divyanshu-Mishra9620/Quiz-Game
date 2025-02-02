@@ -19,6 +19,10 @@ Axios for API requests
 Tailwind CSS for styling
 Vite for bundling
 
+**DEPLOYED HERE* 
+https://quiz-game-nine-ruddy.vercel.app
+
+
 1. **Screenshots**
    Here are some screenshots of the project in action:
 
@@ -28,6 +32,9 @@ Vite for bundling
 ![Screenshot 4](screenshots/Screenshot4.png)
 ![Screenshot 5](screenshots/Screenshot5.png)
 ![Screenshot 6](screenshots/Screenshot6.png)
+
+1. **VIDEO**
+   
 
 ## Installation
 
