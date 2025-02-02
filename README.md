@@ -32,12 +32,6 @@ https://quiz-game-nine-ruddy.vercel.app
 ![Screenshot 4](screenshots/Screenshot4.png)
 ![Screenshot 5](screenshots/Screenshot5.png)
 ![Screenshot 6](screenshots/Screenshot6.png)
-
-## Video Walkthrough
-
-Here is a video showing the app in action:
-
-![Video Title](assets/demo.mp4)
    
 
 ## Installation
