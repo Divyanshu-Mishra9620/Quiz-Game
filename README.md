@@ -13,26 +13,33 @@ This is a gamified quiz app built with React. It allows users to play quizzes wi
 - Scoring system with positive and negative marks
 - Hints and Lifelines for difficult questions
 
-Technologies Used
-React
-Axios for API requests
-Tailwind CSS for styling
-Vite for bundling
+## Technologies Used
+- **React** - JavaScript library for building user interfaces
+- **Axios** - For making API requests
+- **Tailwind CSS** - For styling the application
+- **Vite** - For bundling and development
 
 **DEPLOYED HERE* 
 https://quiz-game-nine-ruddy.vercel.app
 
 
-1. **Screenshots**
-   Here are some screenshots of the project in action:
-
+## **Screenshots**
+  ** Here are some screenshots of the project in action:**
+-**Opening page**
 ![Screenshot 1](screenshots/Screenshot1.png)
+-**Instructions**
 ![Screenshot 2](screenshots/Screenshot2.png)
+-**Confirmation Modal**
 ![Screenshot 3](screenshots/Screenshot3.png)
+-**Start Countdown**
 ![Screenshot 4](screenshots/Screenshot4.png)
+-**ProgressBar**
 ![Screenshot 5](screenshots/Screenshot5.png)
+-**Lifelines**
 ![Screenshot 6](screenshots/Screenshot6.png)
+-**Correct answer**
 ![Screenshot 7](screenshots/Screenshot7.png)
+-**Leaderboard**
 ![Screenshot 8](screenshots/Screenshot8.png)
 
    
