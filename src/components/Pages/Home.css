@@ -1,0 +1,22 @@
+/* Home.css */
+.info-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 5px gold);
+  }
+  50% {
+    filter: drop-shadow(0 0 15px gold);
+  }
+  100% {
+    filter: drop-shadow(0 0 5px gold);
+  }
+}
+
+.info-icon-container .glow {
+  animation: glow 1.5s infinite;
+}

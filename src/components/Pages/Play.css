@@ -1,0 +1,18 @@
+.correct-answer {
+  animation: scaleAnimation 1s ease-in-out forwards;
+}
+
+.game-font {
+  font-family: "Press Start 2P", cursive;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(0);
+    transform-origin: center;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: center;
+  }
+}
