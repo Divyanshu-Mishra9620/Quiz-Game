@@ -157,7 +157,7 @@ export default function QuizStats({
             Question {selectedQuestion}
           </h4>
           <p className="text-lg text-white">
-            {questions[selectedQuestion - 1].description}
+            {questions[selectedQuestion - 1]?.description}
           </p>
         </div>
       )}
