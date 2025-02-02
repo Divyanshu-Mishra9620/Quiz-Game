@@ -81,7 +81,7 @@ export default function QuizInstructions() {
               </li>
               <li>
                 Every question contains{" "}
-                <strong>{questions[0].options?.length} options</strong>.
+                <strong>{questions[0]?.options?.length} options</strong>.
               </li>
               <li>Select the best answer by clicking on it.</li>
               <li>You can quit anytime, and your score will be shown.</li>
