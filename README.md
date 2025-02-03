@@ -1,4 +1,4 @@
-no image displaying # React + Vite
+# React + Vite
 
 # Quiz Game App
 
